@@ -19,8 +19,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <body className={inter.className}>
           <ThemeProvider
             attribute="class"
-            defaultTheme="dark"
-            enableSystem={false}
+            defaultTheme="system"
+            enableSystem
             storageKey="discord-theme"
           >
             {children}
