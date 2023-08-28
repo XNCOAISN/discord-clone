@@ -71,11 +71,11 @@ export const CreateServerModal = () => {
           <DialogTitle className="text-2xl text-center font-bold">
             Customize your server
           </DialogTitle>
+          <DialogDescription className="text-center text-zinc-500">
+            Give your sever a personalyti with a name and an image. You can
+            always change it later.
+          </DialogDescription>
         </DialogHeader>
-        <DialogDescription className="text-center text-zinc-500">
-          Give your sever a personalyti with a name and an image. You can always
-          change it later.
-        </DialogDescription>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <div className="flex items-center justify-center text-center">
